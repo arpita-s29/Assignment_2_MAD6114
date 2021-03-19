@@ -9,7 +9,7 @@ const SignInView = ({onClick}) => (
           <input type="text" className="form-control middle" placeholder="Last Name" name="lastName" required />
           <input type="email" className="form-control bottom" placeholder="Email address" name="email" required />
           <button className="btn btn-lg btn-primary btn-block" type="submit" onClick={() => onClick("SuccessView")}>Sign Me Up!</button>
-      <p className="mt-5 mb-3 text-muted">&copy; Jaldeep Patel 2021</p>
+      <p className="mt-5 mb-3 text-muted">&copy; Arpita Sharma 2021</p>
     </form>
   </div>
 );
